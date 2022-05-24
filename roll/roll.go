@@ -4,9 +4,10 @@ import (
 	"crypto/rand"
 	"encoding/json"
 	"fmt"
-	"go_rpg_sims_dnd_5e/helpers"
 	"math/big"
+	"mdbdba/go_rpg_sims_dnd_5e/helpers"
 	"strconv"
+	"strings"
 )
 
 // Roll struct containing everything you wanted to know about a roll
@@ -38,8 +39,8 @@ func (r *Roll) ToString() string {
 }
 
 func (r *Roll) ConvertToString(p bool) (s string) {
-	usedStr := IntSliceToString(r.RollsUsed)
-	genStr := IntSliceToString(r.RollsGenerated)
+	usedStr := helpers.IntSliceToString(r.RollsUsed)
+	genStr := helpers.IntSliceToString(r.RollsGenerated)
 	pStr := ""
 	if p {
 		pStr = "\n\t"
@@ -90,13 +91,13 @@ func getRolls(sides int, timesToRoll int) (*[]int, error) {
 //     to simplify all the different combinations by just evaluating them here.
 //
 func Perform(sides int, timesToRoll int, CtxRef string, options ...string) (r *Roll, err error) {
-	var reqLogStr string // boil down all the Options to an easy to read string
+	var reqLogStr string // boil down all the Options to an easy-to-read string
 	var vantageLogStr string
 	var keepLogStr string
 	var additiveLogStr string
 	keepValue := timesToRoll // the total number of rolls to keep.
 	evalValue := timesToRoll // the total number of rolls to evaluate.
-	// e.g.  rolling with advantage/disadvantage evals 2 rolls but keep 1
+	// e.g.  rolling with advantage/disadvantage evaluates 2 rolls but keep 1
 	//       keep / drop will have eval & keep numbers that differ as well
 	sortDirection := "descending"
 	additiveValue := 0 // value to add or subtract from the result.
@@ -189,9 +190,9 @@ func Perform(sides int, timesToRoll int, CtxRef string, options ...string) (r *R
 		panic(err)
 	}
 	if sortDirection == "descending" {
-		SortDescendingIntSlice(*rolls)
+		helpers.SortDescendingIntSlice(*rolls)
 	} else {
-		SortAscendingIntSlice(*rolls)
+		helpers.SortAscendingIntSlice(*rolls)
 	}
 	usedSlice := *rolls
 	if evalValue != keepValue {
