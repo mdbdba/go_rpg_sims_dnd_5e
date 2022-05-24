@@ -1,4 +1,4 @@
-module mdbdba/go_rpg_sims_dnd_5e
+module go_rpg_sims_dnd_5e
 
 go 1.18
 
