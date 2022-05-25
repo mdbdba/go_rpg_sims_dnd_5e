@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+
+    <changeSet author="mdbdba" id="lu_archetype_1">
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Hill dwarf"/>
+            <column name="inherits_from" value="Dwarf"/>
+            <column name="maturity_age" value="50"/>
+            <column name="avg_max_age" value="350"/>
+            <column name="base_walking_speed" value="25"/>
+            <column name="height_min_inches" value="51"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="130"/>
+            <column name="weight_modifier_multiplier"  value="4"/>
+            <column name="weight_modifier_die" value="12"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="High elf"/>
+            <column name="inherits_from" value="Elf"/>
+            <column name="maturity_age" value="100"/>
+            <column name="avg_max_age" value="725"/>
+            <column name="base_walking_speed" value="30"/>
+            <column name="height_min_inches" value="48"/>
+            <column name="height_modifier_multiplier"  value="4"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="95"/>
+            <column name="weight_modifier_multiplier"  value="5"/>
+            <column name="weight_modifier_die" value="10"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Mountain dwarf"/>
+            <column name="inherits_from" value="Dwarf"/>
+            <column name="maturity_age" value="50"/>
+            <column name="avg_max_age" value="350"/>
+            <column name="base_walking_speed" value="25"/>
+            <column name="height_min_inches" value="45"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="130"/>
+            <column name="weight_modifier_multiplier"  value="4"/>
+            <column name="weight_modifier_die" value="12"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="PBR"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Wood elf"/>
+            <column name="inherits_from" value="Elf"/>
+            <column name="maturity_age" value="100"/>
+            <column name="avg_max_age" value="725"/>
+            <column name="base_walking_speed" value="35"/>
+            <column name="height_min_inches" value="48"/>
+            <column name="height_modifier_multiplier"  value="4"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="95"/>
+            <column name="weight_modifier_multiplier"  value="5"/>
+            <column name="weight_modifier_die" value="10"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="PBR"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Lightfoot halfling"/>
+            <column name="inherits_from" value="Halfling"/>
+            <column name="maturity_age" value="20"/>
+            <column name="avg_max_age" value="250"/>
+            <column name="base_walking_speed" value="25"/>
+            <column name="height_min_inches" value="30"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="27"/>
+            <column name="weight_modifier_multiplier"  value="3"/>
+            <column name="weight_modifier_die" value="6"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Small"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Stout halfling"/>
+            <column name="inherits_from" value="Halfling"/>
+            <column name="maturity_age" value="20"/>
+            <column name="avg_max_age" value="250"/>
+            <column name="base_walking_speed" value="25"/>
+            <column name="height_min_inches" value="30"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="27"/>
+            <column name="weight_modifier_multiplier"  value="3"/>
+            <column name="weight_modifier_die" value="6"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Small"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Half-Elf"/>
+            <column name="maturity_age" value="20"/>
+            <column name="avg_max_age" value="200"/>
+            <column name="base_walking_speed" value="30"/>
+            <column name="height_min_inches" value="54"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="110"/>
+            <column name="weight_modifier_multiplier"  value="4"/>
+            <column name="weight_modifier_die" value="8"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+                <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Human"/>
+            <column name="maturity_age" value="18"/>
+            <column name="avg_max_age" value="75"/>
+            <column name="base_walking_speed" value="30"/>
+            <column name="height_min_inches" value="58"/>
+            <column name="height_modifier_multiplier"  value="5"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="115"/>
+            <column name="weight_modifier_multiplier"  value="5"/>
+            <column name="weight_modifier_die" value="12"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Black dragonborn"/>
+            <column name="inherits_from" value="Dragonborn"/>
+            <column name="maturity_age" value="15"/>
+            <column name="avg_max_age" value="80"/>
+            <column name="base_walking_speed" value="30"/>
+            <column name="height_min_inches" value="70"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="220"/>
+            <column name="weight_modifier_multiplier"  value="3"/>
+            <column name="weight_modifier_die" value="12"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Blue dragonborn"/>
+            <column name="inherits_from" value="Dragonborn"/>
+            <column name="maturity_age" value="15"/>
+            <column name="avg_max_age" value="80"/>
+            <column name="base_walking_speed" value="30"/>
+            <column name="height_min_inches" value="70"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="220"/>
+            <column name="weight_modifier_multiplier"  value="3"/>
+            <column name="weight_modifier_die" value="12"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Brass dragonborn"/>
+            <column name="inherits_from" value="Dragonborn"/>
+            <column name="maturity_age" value="15"/>
+            <column name="avg_max_age" value="80"/>
+            <column name="base_walking_speed" value="30"/>
+            <column name="height_min_inches" value="70"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="220"/>
+            <column name="weight_modifier_multiplier"  value="3"/>
+            <column name="weight_modifier_die" value="12"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Bronze dragonborn"/>
+            <column name="inherits_from" value="Dragonborn"/>
+            <column name="maturity_age" value="15"/>
+            <column name="avg_max_age" value="80"/>
+            <column name="base_walking_speed" value="30"/>
+            <column name="height_min_inches" value="70"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="220"/>
+            <column name="weight_modifier_multiplier"  value="3"/>
+            <column name="weight_modifier_die" value="12"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Copper dragonborn"/>
+            <column name="inherits_from" value="Dragonborn"/>
+            <column name="maturity_age" value="15"/>
+            <column name="avg_max_age" value="80"/>
+            <column name="base_walking_speed" value="30"/>
+            <column name="height_min_inches" value="70"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="220"/>
+            <column name="weight_modifier_multiplier"  value="3"/>
+            <column name="weight_modifier_die" value="12"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Gold dragonborn"/>
+            <column name="inherits_from" value="Dragonborn"/>
+            <column name="maturity_age" value="15"/>
+            <column name="avg_max_age" value="80"/>
+            <column name="base_walking_speed" value="30"/>
+            <column name="height_min_inches" value="70"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="220"/>
+            <column name="weight_modifier_multiplier"  value="3"/>
+            <column name="weight_modifier_die" value="12"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Green dragonborn"/>
+            <column name="inherits_from" value="Dragonborn"/>
+            <column name="maturity_age" value="15"/>
+            <column name="avg_max_age" value="80"/>
+            <column name="base_walking_speed" value="30"/>
+            <column name="height_min_inches" value="70"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="220"/>
+            <column name="weight_modifier_multiplier"  value="3"/>
+            <column name="weight_modifier_die" value="12"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Red dragonborn"/>
+          <column name="inherits_from" value="Dragonborn"/>
+            <column name="maturity_age" value="15"/>
+            <column name="avg_max_age" value="80"/>
+            <column name="base_walking_speed" value="30"/>
+            <column name="height_min_inches" value="70"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="220"/>
+            <column name="weight_modifier_multiplier"  value="3"/>
+            <column name="weight_modifier_die" value="12"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Silver dragonborn"/>
+            <column name="inherits_from" value="Dragonborn"/>
+            <column name="maturity_age" value="15"/>
+            <column name="avg_max_age" value="80"/>
+            <column name="base_walking_speed" value="30"/>
+            <column name="height_min_inches" value="70"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="220"/>
+            <column name="weight_modifier_multiplier"  value="3"/>
+            <column name="weight_modifier_die" value="12"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="White dragonborn"/>
+            <column name="inherits_from" value="Dragonborn"/>
+            <column name="maturity_age" value="15"/>
+            <column name="avg_max_age" value="80"/>
+            <column name="base_walking_speed" value="30"/>
+            <column name="height_min_inches" value="70"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="220"/>
+            <column name="weight_modifier_multiplier"  value="3"/>
+            <column name="weight_modifier_die" value="12"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Rock gnome"/>
+            <column name="inherits_from" value="Gnome"/>
+            <column name="maturity_age" value="40"/>
+            <column name="avg_max_age" value="425"/>
+            <column name="base_walking_speed" value="25"/>
+            <column name="height_min_inches" value="34"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="8"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="34"/>
+            <column name="weight_modifier_multiplier"  value="2"/>
+            <column name="weight_modifier_die" value="8"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Small"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Half-Orc"/>
+            <column name="maturity_age" value="14"/>
+            <column name="avg_max_age" value="68"/>
+            <column name="base_walking_speed" value="30"/>
+            <column name="height_min_inches" value="58"/>
+            <column name="height_modifier_multiplier"  value="2"/>
+            <column name="height_modifier_die" value="10"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="170"/>
+            <column name="weight_modifier_multiplier"  value="2"/>
+            <column name="weight_modifier_die" value="20"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Small"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype">
+            <column name="archetype" value="Tiefling"/>
+            <column name="maturity_age" value="17"/>
+            <column name="avg_max_age" value="80"/>
+            <column name="base_walking_speed" value="30"/>
+            <column name="height_min_inches" value="58"/>
+            <column name="height_modifier_multiplier"  value="5"/>
+            <column name="height_modifier_die" value="6"/>
+            <column name="height_modifier_adj" value="0"/>
+            <column name="weight_min_pounds" value="160"/>
+            <column name="weight_modifier_multiplier"  value="5"/>
+            <column name="weight_modifier_die" value="12"/>
+            <column name="weight_modifier_adj" value="0"/>
+            <column name="size" value="Medium"/>
+            <column name="source_material" value="SRD"/>
+        </insert>
+
+    </changeSet>
+</databaseChangeLog>

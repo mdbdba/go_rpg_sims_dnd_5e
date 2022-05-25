@@ -4,6 +4,7 @@ go 1.18
 
 require (
 	github.com/cockroachdb/cockroach-go/v2 v2.2.10
+	github.com/itchyny/timefmt-go v0.1.3
 	github.com/jackc/pgx/v4 v4.16.1
 	github.com/stretchr/testify v1.7.1
 	go.uber.org/zap v1.21.0

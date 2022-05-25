@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+    
+    <changeSet author="mdbdba" id="lu_archetype_ct_1">
+        <createTable 
+                schemaName="dnd5e"
+                tableName="lu_archetype">
+            <column name="archetype" type="varchar(32)"/>
+            <column name="inherits_from" type="varchar(32)"/>
+            <column name="maturity_age" type="smallint"/>
+            <column name="avg_max_age" type="smallint"/>
+            <column name="base_walking_speed" type="smallint"/>
+            <column name="height_min_inches" type="int"/>
+            <column name="height_modifier_multiplier"  type="int"/>
+            <column name="height_modifier_die" type="int"/>
+            <column name="height_modifier_adj" type="int"/>
+            <column name="weight_min_pounds" type="int"/>
+            <column name="weight_modifier_multiplier"  type="int"/>
+            <column name="weight_modifier_die" type="int"/>
+            <column name="weight_modifier_adj" type="int"/>
+            <column name="size" type="varchar(16)"/>
+            <column name="source_material" type="varchar(64)"/>
+            <column name="source_credit_url" type="varchar(255)"/>
+            <column name="source_credit_comment" type="varchar(255)"/>
+        </createTable>
+        <addNotNullConstraint columnDataType="varchar(32)"
+                              columnName="archetype"
+                              constraintName="nn_lu_archetype_archetype"
+                              schemaName="dnd5e"
+                              tableName="lu_archetype"
+                              validate="true"/>
+        <addPrimaryKey 
+            columnNames="archetype"
+            constraintName="pk_lu_archetype"
+            schemaName="dnd5e"
+            tableName="lu_archetype"/>
+        <addForeignKeyConstraint baseColumnNames="source_material"
+            baseTableName="lu_archetype"
+            constraintName="fk_lu_archetype_source_material"
+            onDelete="CASCADE"
+            onUpdate="RESTRICT"
+                                 baseTableSchemaName="dnd5e"
+                                 referencedTableSchemaName="dnd5e"
+            referencedColumnNames="value"
+            referencedTableName="lu_source_material"/>
+        <addForeignKeyConstraint baseColumnNames="size"
+                                 baseTableSchemaName="dnd5e"
+            baseTableName="lu_archetype"
+            constraintName="fk_lu_archetype_size"
+            onDelete="CASCADE"
+            onUpdate="RESTRICT"
+                                 referencedTableSchemaName="dnd5e"
+            referencedColumnNames="name"
+            referencedTableName="lu_size"/>
+    </changeSet>
+
+</databaseChangeLog>

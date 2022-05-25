@@ -8,6 +8,11 @@
 # configs
 dbu/dbi.json
 dbu/ct_database.sql
+data/dndcharacter/liquibase.properties
+
+# directory where purchased data goes
+data/dndcharacter/purchased
+
 
 
 # Test binary, built with `go test -c`

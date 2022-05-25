@@ -1,0 +1,8 @@
+driver=org.postgresql.Driver
+url=jdbc:postgresql://localhost:5432/dndcharacter
+username=dndcharacter
+password=superSecretPasswordHere123
+changeLogFile=main.xml
+
+liquibase.hub.mode=off
+liquibase.secureParsing=false
