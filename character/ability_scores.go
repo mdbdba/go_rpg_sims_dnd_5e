@@ -45,6 +45,40 @@ var AbilityScoreModifier = func() map[int]int {
 	}
 }
 
+// AbilityScorePointCost returns a map of the cost of each ability
+// value in the point buy system.
+var AbilityScorePointCost = func() map[int]int {
+	return map[int]int{
+		8: 0, 9: 1, 10: 2, 11: 3,
+		12: 4, 13: 5, 14: 7, 15: 9,
+	}
+}
+
+// SkillAbilityLookup returns a map of Skills with what ability they map
+// to for skills checks
+var SkillAbilityLookup = func() map[string]string {
+	return map[string]string{
+		"Athletics":       "Strength",
+		"Acrobatics":      "Dexterity",
+		"Sleight of Hand": "Dexterity",
+		"Stealth":         "Dexterity",
+		"Arcana":          "Intelligence",
+		"History":         "Intelligence",
+		"Investigation":   "Intelligence",
+		"Nature":          "Intelligence",
+		"Religion":        "Intelligence",
+		"Animal Handling": "Wisdom",
+		"Insight":         "Wisdom",
+		"Medicine":        "Wisdom",
+		"Perception":      "Wisdom",
+		"Survival":        "Wisdom",
+		"Deception":       "Charisma",
+		"Intimidation":    "Charisma",
+		"Performance":     "Charisma",
+		"Persuasion":      "Charisma",
+	}
+}
+
 // AbilityAssign returns a map with all the options for "rolling" the
 // ability values and in the case of set ones, the values to be used.
 var AbilityAssign = func() map[string][]int {

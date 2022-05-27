@@ -28,6 +28,18 @@ func TestAbilityAssign(t *testing.T) {
 	assert.Equal(t, 8, len(actualKeys))
 }
 
+func TestAbilityScorePointCost(t *testing.T) {
+	actual := AbilityScorePointCost()
+	assert.Equal(t, 8, len(actual))
+	assert.Equal(t, 2, actual[10])
+}
+
+func TestSkillAbilityLookup(t *testing.T) {
+	actual := SkillAbilityLookup()
+	assert.Equal(t, 18, len(actual))
+	assert.Equal(t, "Intelligence", actual["History"])
+}
+
 func TestAbilityArrayTemplate(t *testing.T) {
 	actual := AbilityArrayTemplate()
 	assert.Equal(t, 6, len(actual))
@@ -141,13 +153,13 @@ func TestGetAbilityArray(t *testing.T) {
 	ArchetypeBonus := AbilityArrayTemplate()
 	ArchetypeBonus["Charisma"] = 2
 	ArchetypeBonus["Intelligence"] = 1
-	ArchetypeBonusIgnored := false
+	ArchetypeBonusIgnored := true
 	LevelChangeIncrease := AbilityArrayTemplate()
 	LevelChangeIncrease["Dexterity"] = 2
 	AdditionalBonus := AbilityArrayTemplate()
 	AdditionalBonus["Strength"] = 2
 	ctxRef := "TestGetAbilityArray"
-	isMonsterOrGod := false
+	isMonsterOrGod := true
 
 	// When
 	a, err := GetAbilityArray(rollingOption, sortOrder, ArchetypeBonus,
@@ -158,9 +170,9 @@ func TestGetAbilityArray(t *testing.T) {
 	assert.Equal(t, nil, err)
 	fmt.Println(a.ToPrettyString())
 	assert.Equal(t, 15, a.Values["Strength"])
-	assert.Equal(t, 14, a.Values["Charisma"])
+	assert.Equal(t, 12, a.Values["Charisma"])
 	assert.Equal(t, 17, a.Values["Dexterity"])
-	assert.Equal(t, 9, a.Values["Intelligence"])
+	assert.Equal(t, 8, a.Values["Intelligence"])
 	actual, _ := a.GetModifier("Strength")
 	assert.Equal(t, 2, actual)
 	actual, _ = a.GetModifier("Intelligence")
