@@ -39,7 +39,7 @@
             tableName="lu_size"/>
 
         <insert schemaName="dnd5e" tableName="lu_size">
-            <column name="name" value="Fine"/>
+            <column name="name" value="fine"/>
             <column name="attack_and_ac_modifier" value="8"/>
             <column name="special_attack_modifier" value="-16"/>
             <column name="hide_modifier" value="16"/>
@@ -58,7 +58,7 @@
             <column name="carry_cap_mult_quadruped" value=".25"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_size">
-            <column name="name" value="Diminutive"/>
+            <column name="name" value="diminutive"/>
             <column name="attack_and_ac_modifier" value="4"/>
             <column name="special_attack_modifier" value="-12"/>
             <column name="hide_modifier" value="12"/>
@@ -77,7 +77,7 @@
             <column name="carry_cap_mult_quadruped" value=".5"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_size">
-            <column name="name" value="Tiny"/>
+            <column name="name" value="tiny"/>
             <column name="attack_and_ac_modifier" value="2"/>
             <column name="special_attack_modifier" value="-8"/>
             <column name="hide_modifier" value="8"/>
@@ -96,7 +96,7 @@
             <column name="carry_cap_mult_quadruped" value=".75"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_size">
-            <column name="name" value="Small"/>
+            <column name="name" value="small"/>
             <column name="attack_and_ac_modifier" value="1"/>
             <column name="special_attack_modifier" value="-4"/>
             <column name="hide_modifier" value="4"/>
@@ -115,7 +115,7 @@
             <column name="carry_cap_mult_quadruped" value="1"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_size">
-            <column name="name" value="Medium"/>
+            <column name="name" value="medium"/>
             <column name="attack_and_ac_modifier" value="0"/>
             <column name="special_attack_modifier" value="0"/>
             <column name="hide_modifier" value="0"/>
@@ -130,7 +130,7 @@
             <column name="carry_cap_mult_quadruped" value="1.5"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_size">
-            <column name="name" value="Large"/>
+            <column name="name" value="large"/>
             <column name="attack_and_ac_modifier" value="-1"/>
             <column name="special_attack_modifier" value="4"/>
             <column name="hide_modifier" value="-4"/>
@@ -145,7 +145,7 @@
             <column name="carry_cap_mult_quadruped" value="3"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_size">
-            <column name="name" value="Huge"/>
+            <column name="name" value="huge"/>
             <column name="attack_and_ac_modifier" value="-2"/>
             <column name="special_attack_modifier" value="8"/>
             <column name="hide_modifier" value="-8"/>
@@ -160,7 +160,7 @@
             <column name="carry_cap_mult_quadruped" value="6"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_size">
-            <column name="name" value="Gargantuan"/>
+            <column name="name" value="gargantuan"/>
             <column name="attack_and_ac_modifier" value="-4"/>
             <column name="special_attack_modifier" value="12"/>
             <column name="hide_modifier" value="-12"/>
@@ -175,7 +175,7 @@
             <column name="carry_cap_mult_quadruped" value="12"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_size">
-            <column name="name" value="Colossal"/>
+            <column name="name" value="colossal"/>
             <column name="attack_and_ac_modifier" value="-8"/>
             <column name="special_attack_modifier" value="16"/>
             <column name="hide_modifier" value="-16"/>

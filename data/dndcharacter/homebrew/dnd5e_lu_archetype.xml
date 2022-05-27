@@ -8,7 +8,7 @@
     <changeSet author="mdbdba" id="lu_archetype_1">
         
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Centaur"/>
+            <column name="archetype" value="centaur"/>
             <column name="maturity_age" value="17"/>
             <column name="avg_max_age" value="80"/>
             <column name="base_walking_speed" value="40"/>
@@ -20,13 +20,13 @@
             <column name="weight_modifier_multiplier"  value="5"/>
             <column name="weight_modifier_die" value="12"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="homebrew"/>
             <column name="source_credit_url" value="https://www.dndbeyond.com/characters/archetypes/centaur"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Black bearkin"/>
-            <column name="inherits_from" value="Bearkin"/>
+            <column name="archetype" value="black bearkin"/>
+            <column name="inherits_from" value="bearkin"/>
             <column name="maturity_age" value="17"/>
             <column name="avg_max_age" value="56"/>
             <column name="base_walking_speed" value="20"/>
@@ -38,13 +38,13 @@
             <column name="weight_modifier_multiplier"  value="5"/>
             <column name="weight_modifier_die" value="20"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="homebrew"/>
             <column name="source_credit_url" value="https://www.dndbeyond.com/characters/archetypes/1853-bearkin"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Brown bearkin"/>
-            <column name="inherits_from" value="Bearkin"/>
+            <column name="archetype" value="brown bearkin"/>
+            <column name="inherits_from" value="bearkin"/>
             <column name="maturity_age" value="17"/>
             <column name="avg_max_age" value="56"/>
             <column name="base_walking_speed" value="20"/>
@@ -56,13 +56,13 @@
             <column name="weight_modifier_multiplier"  value="7"/>
             <column name="weight_modifier_die" value="20"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="homebrew"/>
             <column name="source_credit_url" value="https://www.dndbeyond.com/characters/archetypes/1853-bearkin"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Koala bearkin"/>
-            <column name="inherits_from" value="Bearkin"/>
+            <column name="archetype" value="koala bearkin"/>
+            <column name="inherits_from" value="bearkin"/>
             <column name="maturity_age" value="17"/>
             <column name="avg_max_age" value="56"/>
             <column name="base_walking_speed" value="20"/>
@@ -74,13 +74,13 @@
             <column name="weight_modifier_multiplier"  value="2"/>
             <column name="weight_modifier_die" value="10"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Small"/>
+            <column name="size" value="small"/>
             <column name="source_material" value="homebrew"/>
             <column name="source_credit_url" value="https://www.dndbeyond.com/characters/archetypes/1853-bearkin"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Panda bearkin"/>
-            <column name="inherits_from" value="Bearkin"/>
+            <column name="archetype" value="panda bearkin"/>
+            <column name="inherits_from" value="bearkin"/>
             <column name="maturity_age" value="17"/>
             <column name="avg_max_age" value="56"/>
             <column name="base_walking_speed" value="20"/>
@@ -92,13 +92,13 @@
             <column name="weight_modifier_multiplier"  value="5"/>
             <column name="weight_modifier_die" value="20"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="homebrew"/>
             <column name="source_credit_url" value="https://www.dndbeyond.com/characters/archetypes/1853-bearkin"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Polar bearkin"/>
-            <column name="inherits_from" value="Bearkin"/>
+            <column name="archetype" value="polar bearkin"/>
+            <column name="inherits_from" value="bearkin"/>
             <column name="maturity_age" value="17"/>
             <column name="avg_max_age" value="56"/>
             <column name="base_walking_speed" value="20"/>
@@ -110,13 +110,13 @@
             <column name="weight_modifier_multiplier"  value="5"/>
             <column name="weight_modifier_die" value="20"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="homebrew"/>
             <column name="source_credit_url" value="https://www.dndbeyond.com/characters/archetypes/1853-bearkin"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Burrows kobold"/>
-            <column name="inherits_from" value="Kobold"/>
+            <column name="archetype" value="burrows kobold"/>
+            <column name="inherits_from" value="kobold"/>
             <column name="maturity_age" value="10"/>
             <column name="avg_max_age" value="120"/>
             <column name="base_walking_speed" value="30"/>
@@ -128,13 +128,13 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="4"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Small"/>
+            <column name="size" value="small"/>
             <column name="source_material" value="homebrew"/>
             <column name="source_credit_url" value="https://www.dandwiki.com/wiki/Kobold,_Variant_(5e_Race)"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Loredrake kobold"/>
-            <column name="inherits_from" value="Kobold"/>
+            <column name="archetype" value="loredrake kobold"/>
+            <column name="inherits_from" value="kobold"/>
             <column name="maturity_age" value="10"/>
             <column name="avg_max_age" value="120"/>
             <column name="base_walking_speed" value="30"/>
@@ -146,13 +146,13 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="4"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Small"/>
+            <column name="size" value="small"/>
             <column name="source_material" value="homebrew"/>
             <column name="source_credit_url" value="https://www.dandwiki.com/wiki/Kobold,_Variant_(5e_Race)"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Winged kobold"/>
-            <column name="inherits_from" value="Kobold"/>
+            <column name="archetype" value="winged kobold"/>
+            <column name="inherits_from" value="kobold"/>
             <column name="maturity_age" value="10"/>
             <column name="avg_max_age" value="120"/>
             <column name="base_walking_speed" value="30"/>
@@ -164,13 +164,13 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="4"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Small"/>
+            <column name="size" value="small"/>
             <column name="source_material" value="homebrew"/>
             <column name="source_credit_url" value="https://www.dandwiki.com/wiki/Kobold,_Variant_(5e_Race)"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Greenskin goblin"/>
-            <column name="inherits_from" value="Goblin"/>
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="inherits_from" value="goblin"/>
             <column name="maturity_age" value="3"/>
             <column name="avg_max_age" value="35"/>
             <column name="base_walking_speed" value="40"/>
@@ -182,13 +182,13 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="4"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Small"/>
+            <column name="size" value="small"/>
             <column name="source_material" value="homebrew"/>
             <column name="source_credit_url" value="https://www.dandwiki.com/wiki/Goblin_(5e_Race_Variant)"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Boggart goblin"/>
-            <column name="inherits_from" value="Goblin"/>
+            <column name="archetype" value="boggart goblin"/>
+            <column name="inherits_from" value="goblin"/>
             <column name="maturity_age" value="3"/>
             <column name="avg_max_age" value="35"/>
             <column name="base_walking_speed" value="40"/>
@@ -200,14 +200,14 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="4"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Small"/>
+            <column name="size" value="small"/>
             <column name="source_material" value="homebrew"/>
             <column name="source_credit_url" value="https://www.dandwiki.com/wiki/Goblin_(5e_Race_Variant)"/>
         </insert>
 
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Gremlin goblin"/>
-            <column name="inherits_from" value="Goblin"/>
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="inherits_from" value="goblin"/>
             <column name="maturity_age" value="3"/>
             <column name="avg_max_age" value="35"/>
             <column name="base_walking_speed" value="40"/>
@@ -219,7 +219,7 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="4"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Small"/>
+            <column name="size" value="small"/>
             <column name="source_material" value="homebrew"/>
             <column name="source_credit_url" value="https://www.dandwiki.com/wiki/Goblin_(5e_Race_Variant)"/>
         </insert>

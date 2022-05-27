@@ -7,8 +7,8 @@
 
     <changeSet author="mdbdba" id="lu_archetype_1">
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Hill dwarf"/>
-            <column name="inherits_from" value="Dwarf"/>
+            <column name="archetype" value="hill dwarf"/>
+            <column name="inherits_from" value="dwarf"/>
             <column name="maturity_age" value="50"/>
             <column name="avg_max_age" value="350"/>
             <column name="base_walking_speed" value="25"/>
@@ -20,12 +20,12 @@
             <column name="weight_modifier_multiplier"  value="4"/>
             <column name="weight_modifier_die" value="12"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="High elf"/>
-            <column name="inherits_from" value="Elf"/>
+            <column name="archetype" value="high elf"/>
+            <column name="inherits_from" value="elf"/>
             <column name="maturity_age" value="100"/>
             <column name="avg_max_age" value="725"/>
             <column name="base_walking_speed" value="30"/>
@@ -37,12 +37,12 @@
             <column name="weight_modifier_multiplier"  value="5"/>
             <column name="weight_modifier_die" value="10"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Mountain dwarf"/>
-            <column name="inherits_from" value="Dwarf"/>
+            <column name="archetype" value="mountain dwarf"/>
+            <column name="inherits_from" value="dwarf"/>
             <column name="maturity_age" value="50"/>
             <column name="avg_max_age" value="350"/>
             <column name="base_walking_speed" value="25"/>
@@ -54,12 +54,12 @@
             <column name="weight_modifier_multiplier"  value="4"/>
             <column name="weight_modifier_die" value="12"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="PBR"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Wood elf"/>
-            <column name="inherits_from" value="Elf"/>
+            <column name="archetype" value="wood elf"/>
+            <column name="inherits_from" value="elf"/>
             <column name="maturity_age" value="100"/>
             <column name="avg_max_age" value="725"/>
             <column name="base_walking_speed" value="35"/>
@@ -71,12 +71,12 @@
             <column name="weight_modifier_multiplier"  value="5"/>
             <column name="weight_modifier_die" value="10"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="PBR"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Lightfoot halfling"/>
-            <column name="inherits_from" value="Halfling"/>
+            <column name="archetype" value="lightfoot halfling"/>
+            <column name="inherits_from" value="halfling"/>
             <column name="maturity_age" value="20"/>
             <column name="avg_max_age" value="250"/>
             <column name="base_walking_speed" value="25"/>
@@ -88,12 +88,12 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="6"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Small"/>
+            <column name="size" value="small"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Stout halfling"/>
-            <column name="inherits_from" value="Halfling"/>
+            <column name="archetype" value="stout halfling"/>
+            <column name="inherits_from" value="halfling"/>
             <column name="maturity_age" value="20"/>
             <column name="avg_max_age" value="250"/>
             <column name="base_walking_speed" value="25"/>
@@ -105,11 +105,11 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="6"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Small"/>
+            <column name="size" value="small"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Half-Elf"/>
+            <column name="archetype" value="half-elf"/>
             <column name="maturity_age" value="20"/>
             <column name="avg_max_age" value="200"/>
             <column name="base_walking_speed" value="30"/>
@@ -121,11 +121,11 @@
             <column name="weight_modifier_multiplier"  value="4"/>
             <column name="weight_modifier_die" value="8"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="SRD"/>
         </insert>
                 <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Human"/>
+            <column name="archetype" value="human"/>
             <column name="maturity_age" value="18"/>
             <column name="avg_max_age" value="75"/>
             <column name="base_walking_speed" value="30"/>
@@ -137,12 +137,12 @@
             <column name="weight_modifier_multiplier"  value="5"/>
             <column name="weight_modifier_die" value="12"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Black dragonborn"/>
-            <column name="inherits_from" value="Dragonborn"/>
+            <column name="archetype" value="black dragonborn"/>
+            <column name="inherits_from" value="dragonborn"/>
             <column name="maturity_age" value="15"/>
             <column name="avg_max_age" value="80"/>
             <column name="base_walking_speed" value="30"/>
@@ -154,12 +154,12 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="12"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Blue dragonborn"/>
-            <column name="inherits_from" value="Dragonborn"/>
+            <column name="archetype" value="blue dragonborn"/>
+            <column name="inherits_from" value="dragonborn"/>
             <column name="maturity_age" value="15"/>
             <column name="avg_max_age" value="80"/>
             <column name="base_walking_speed" value="30"/>
@@ -171,12 +171,12 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="12"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Brass dragonborn"/>
-            <column name="inherits_from" value="Dragonborn"/>
+            <column name="archetype" value="brass dragonborn"/>
+            <column name="inherits_from" value="dragonborn"/>
             <column name="maturity_age" value="15"/>
             <column name="avg_max_age" value="80"/>
             <column name="base_walking_speed" value="30"/>
@@ -188,12 +188,12 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="12"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Bronze dragonborn"/>
-            <column name="inherits_from" value="Dragonborn"/>
+            <column name="archetype" value="bronze dragonborn"/>
+            <column name="inherits_from" value="dragonborn"/>
             <column name="maturity_age" value="15"/>
             <column name="avg_max_age" value="80"/>
             <column name="base_walking_speed" value="30"/>
@@ -205,12 +205,12 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="12"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Copper dragonborn"/>
-            <column name="inherits_from" value="Dragonborn"/>
+            <column name="archetype" value="copper dragonborn"/>
+            <column name="inherits_from" value="dragonborn"/>
             <column name="maturity_age" value="15"/>
             <column name="avg_max_age" value="80"/>
             <column name="base_walking_speed" value="30"/>
@@ -222,12 +222,12 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="12"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Gold dragonborn"/>
-            <column name="inherits_from" value="Dragonborn"/>
+            <column name="archetype" value="gold dragonborn"/>
+            <column name="inherits_from" value="dragonborn"/>
             <column name="maturity_age" value="15"/>
             <column name="avg_max_age" value="80"/>
             <column name="base_walking_speed" value="30"/>
@@ -239,12 +239,12 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="12"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Green dragonborn"/>
-            <column name="inherits_from" value="Dragonborn"/>
+            <column name="archetype" value="green dragonborn"/>
+            <column name="inherits_from" value="dragonborn"/>
             <column name="maturity_age" value="15"/>
             <column name="avg_max_age" value="80"/>
             <column name="base_walking_speed" value="30"/>
@@ -256,12 +256,12 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="12"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Red dragonborn"/>
-          <column name="inherits_from" value="Dragonborn"/>
+            <column name="archetype" value="red dragonborn"/>
+          <column name="inherits_from" value="dragonborn"/>
             <column name="maturity_age" value="15"/>
             <column name="avg_max_age" value="80"/>
             <column name="base_walking_speed" value="30"/>
@@ -273,12 +273,12 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="12"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Silver dragonborn"/>
-            <column name="inherits_from" value="Dragonborn"/>
+            <column name="archetype" value="silver dragonborn"/>
+            <column name="inherits_from" value="dragonborn"/>
             <column name="maturity_age" value="15"/>
             <column name="avg_max_age" value="80"/>
             <column name="base_walking_speed" value="30"/>
@@ -290,12 +290,12 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="12"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="White dragonborn"/>
-            <column name="inherits_from" value="Dragonborn"/>
+            <column name="archetype" value="white dragonborn"/>
+            <column name="inherits_from" value="dragonborn"/>
             <column name="maturity_age" value="15"/>
             <column name="avg_max_age" value="80"/>
             <column name="base_walking_speed" value="30"/>
@@ -307,12 +307,12 @@
             <column name="weight_modifier_multiplier"  value="3"/>
             <column name="weight_modifier_die" value="12"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Rock gnome"/>
-            <column name="inherits_from" value="Gnome"/>
+            <column name="archetype" value="rock gnome"/>
+            <column name="inherits_from" value="gnome"/>
             <column name="maturity_age" value="40"/>
             <column name="avg_max_age" value="425"/>
             <column name="base_walking_speed" value="25"/>
@@ -324,11 +324,11 @@
             <column name="weight_modifier_multiplier"  value="2"/>
             <column name="weight_modifier_die" value="8"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Small"/>
+            <column name="size" value="small"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Half-Orc"/>
+            <column name="archetype" value="half-orc"/>
             <column name="maturity_age" value="14"/>
             <column name="avg_max_age" value="68"/>
             <column name="base_walking_speed" value="30"/>
@@ -340,11 +340,11 @@
             <column name="weight_modifier_multiplier"  value="2"/>
             <column name="weight_modifier_die" value="20"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Small"/>
+            <column name="size" value="small"/>
             <column name="source_material" value="SRD"/>
         </insert>
         <insert schemaName="dnd5e" tableName="lu_archetype">
-            <column name="archetype" value="Tiefling"/>
+            <column name="archetype" value="tiefling"/>
             <column name="maturity_age" value="17"/>
             <column name="avg_max_age" value="80"/>
             <column name="base_walking_speed" value="30"/>
@@ -356,7 +356,7 @@
             <column name="weight_modifier_multiplier"  value="5"/>
             <column name="weight_modifier_die" value="12"/>
             <column name="weight_modifier_adj" value="0"/>
-            <column name="size" value="Medium"/>
+            <column name="size" value="medium"/>
             <column name="source_material" value="SRD"/>
         </insert>
 
