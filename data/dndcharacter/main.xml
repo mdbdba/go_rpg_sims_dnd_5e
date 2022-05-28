@@ -7,6 +7,7 @@
     <include file="dnd5e_lu_size.xml"/>
     <include file="dnd5e_lu_source_material.xml"/>
     <include file="dnd5e_lu_archetype_ct.xml"/>
+    <include file="dnd5e_lu_archetype_ability_score_modifier_ct.xml"/>
     <includeAll path="srd/"/>
     <includeAll path="purchased/"/>
     <includeAll path="homebrew/"/>

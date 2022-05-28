@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+    <changeSet author="mdbdba" id="lu_archetype_ability_score_modifier_ct_1">
+       <createTable 
+                schemaName="dnd5e"
+                tableName="lu_archetype_ability_score_modifier">
+            <column name="archetype" type="varchar(32)"/>
+            <column name="ability" type="varchar(32)"/>
+            <column name="modifier" type="smallint"/>
+        </createTable>
+        <addNotNullConstraint columnDataType="varchar(32)"
+                              columnName="ability"
+                              constraintName="nn_lu_archetype_asm_ability"
+                              schemaName="dnd5e"
+                              tableName="lu_archetype_ability_score_modifier"
+                              validate="true"/>
+        <addNotNullConstraint columnDataType="varchar(32)"
+                              columnName="archetype"
+                              constraintName="nn_lu_archetype_asm_archetype"
+                              schemaName="dnd5e"
+                              tableName="lu_archetype_ability_score_modifier"
+                              validate="true"/>
+        <addPrimaryKey 
+            columnNames="archetype, ability"
+            constraintName="pk_lu_archetype_ability_score_modifier"
+            schemaName="dnd5e"
+            tableName="lu_archetype_ability_score_modifier"/>
+    </changeSet>
+</databaseChangeLog>

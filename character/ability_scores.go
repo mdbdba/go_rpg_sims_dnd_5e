@@ -16,12 +16,12 @@ import (
 // descriptions
 var AbilityDescriptions = func() map[string]string {
 	return map[string]string{
-		"Strength":     "measure of physical power",
-		"Dexterity":    "measure of agility",
-		"Constitution": "measure of endurance",
-		"Intelligence": "measure of reasoning and memory",
-		"Wisdom":       "measure of perception and insight",
-		"Charisma":     "measure of personality force",
+		"strength":     "measure of physical power",
+		"dexterity":    "measure of agility",
+		"constitution": "measure of endurance",
+		"intelligence": "measure of reasoning and memory",
+		"wisdom":       "measure of perception and insight",
+		"charisma":     "measure of personality force",
 	}
 }
 
@@ -58,24 +58,24 @@ var AbilityScorePointCost = func() map[int]int {
 // to for skills checks
 var SkillAbilityLookup = func() map[string]string {
 	return map[string]string{
-		"Athletics":       "Strength",
-		"Acrobatics":      "Dexterity",
-		"Sleight of Hand": "Dexterity",
-		"Stealth":         "Dexterity",
-		"Arcana":          "Intelligence",
-		"History":         "Intelligence",
-		"Investigation":   "Intelligence",
-		"Nature":          "Intelligence",
-		"Religion":        "Intelligence",
-		"Animal Handling": "Wisdom",
-		"Insight":         "Wisdom",
-		"Medicine":        "Wisdom",
-		"Perception":      "Wisdom",
-		"Survival":        "Wisdom",
-		"Deception":       "Charisma",
-		"Intimidation":    "Charisma",
-		"Performance":     "Charisma",
-		"Persuasion":      "Charisma",
+		"athletics":       "strength",
+		"acrobatics":      "dexterity",
+		"sleight of Hand": "dexterity",
+		"stealth":         "dexterity",
+		"arcana":          "intelligence",
+		"history":         "intelligence",
+		"investigation":   "intelligence",
+		"Nature":          "intelligence",
+		"Religion":        "intelligence",
+		"animal handling": "wisdom",
+		"insight":         "wisdom",
+		"medicine":        "wisdom",
+		"perception":      "wisdom",
+		"survival":        "wisdom",
+		"deception":       "charisma",
+		"intimidation":    "charisma",
+		"performance":     "charisma",
+		"persuasion":      "charisma",
 	}
 }
 
@@ -97,12 +97,12 @@ var AbilityAssign = func() map[string][]int {
 // AbilityArrayTemplate is used to get a map with the abilities as keys
 var AbilityArrayTemplate = func() map[string]int {
 	return map[string]int{
-		"Strength":     0,
-		"Dexterity":    0,
-		"Constitution": 0,
-		"Intelligence": 0,
-		"Wisdom":       0,
-		"Charisma":     0,
+		"strength":     0,
+		"dexterity":    0,
+		"constitution": 0,
+		"intelligence": 0,
+		"wisdom":       0,
+		"charisma":     0,
 	}
 }
 
@@ -164,28 +164,28 @@ func rollRawAbilitySlice(rollOption string,
 //  this is an import of an existing player.  If not, it would be suspicious.
 func GetPreGeneratedBaseAbilityArray(pre []int) (map[string]int, []string) {
 	sortOrder := []string{
-		"Strength",
-		"Dexterity",
-		"Constitution",
-		"Intelligence",
-		"Wisdom",
-		"Charisma",
+		"strength",
+		"dexterity",
+		"constitution",
+		"intelligence",
+		"wisdom",
+		"charisma",
 	}
 	retObj := AbilityArrayTemplate()
 	for i := 0; i < len(pre); i++ {
 		switch i {
 		case 0:
-			retObj["Strength"] = pre[i]
+			retObj["strength"] = pre[i]
 		case 1:
-			retObj["Dexterity"] = pre[i]
+			retObj["dexterity"] = pre[i]
 		case 2:
-			retObj["Constitution"] = pre[i]
+			retObj["constitution"] = pre[i]
 		case 3:
-			retObj["Intelligence"] = pre[i]
+			retObj["intelligence"] = pre[i]
 		case 4:
-			retObj["Wisdom"] = pre[i]
+			retObj["wisdom"] = pre[i]
 		case 5:
-			retObj["Charisma"] = pre[i]
+			retObj["charisma"] = pre[i]
 		}
 	}
 	return retObj, sortOrder
@@ -225,18 +225,18 @@ func GetBaseAbilityArray(sortOrder []string, rollingOption string,
 	}
 	for i := 0; i < len(sortOrder); i++ {
 		switch sortOrder[i] {
-		case "Strength":
-			r["Strength"] = rawValueSlice[i]
-		case "Dexterity":
-			r["Dexterity"] = rawValueSlice[i]
-		case "Constitution":
-			r["Constitution"] = rawValueSlice[i]
-		case "Intelligence":
-			r["Intelligence"] = rawValueSlice[i]
-		case "Wisdom":
-			r["Wisdom"] = rawValueSlice[i]
-		case "Charisma":
-			r["Charisma"] = rawValueSlice[i]
+		case "strength":
+			r["strength"] = rawValueSlice[i]
+		case "dexterity":
+			r["dexterity"] = rawValueSlice[i]
+		case "constitution":
+			r["constitution"] = rawValueSlice[i]
+		case "intelligence":
+			r["intelligence"] = rawValueSlice[i]
+		case "wisdom":
+			r["wisdom"] = rawValueSlice[i]
+		case "charisma":
+			r["charisma"] = rawValueSlice[i]
 		}
 	}
 	logger.Infow("Base Array Info",
@@ -449,8 +449,8 @@ func (pa *AbilityArray) AdjustValues(ValueType string, Ability string,
 func AbilityMapToString(src map[string]int) (tgt string) {
 	tgt = fmt.Sprintf("{\"Strength\": %2d, \"Dexterity\": %2d, \"Constitution\": %2d, "+
 		"\"Intelligence\": %2d, \"Wisdom\": %2d, \"Charisma\": %2d}",
-		src["Strength"], src["Dexterity"], src["Constitution"], src["Intelligence"],
-		src["Wisdom"], src["Charisma"])
+		src["strength"], src["dexterity"], src["constitution"], src["intelligence"],
+		src["wisdom"], src["charisma"])
 	return
 }
 
