@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+    <changeSet author="mdbdba" id="lu_alignment_ct_1">
+        <createTable 
+                schemaName="dnd5e"
+                tableName="lu_alignment">
+            <column name="value" type="varchar(32)"/>
+            <column name="abbreviation" type="varchar(5)"/>
+            <column name="description" type="varchar(255)"/>
+        </createTable>
+        <addNotNullConstraint columnDataType="varchar(32)"
+                              columnName="value"
+                              constraintName="nn_lu_alignment_value"
+                              schemaName="dnd5e"
+                              tableName="lu_alignment"
+                              validate="true"/>
+        <addNotNullConstraint columnDataType="varchar(5)"
+                              columnName="abbreviation"
+                              constraintName="nn_lu_alignment_abbreviation"
+                              schemaName="dnd5e"
+                              tableName="lu_alignment"
+                              validate="true"/>
+        <addPrimaryKey 
+            columnNames="abbreviation"
+            constraintName="pk_lu_alignment"
+            schemaName="dnd5e"
+            tableName="lu_alignment"/>
+    </changeSet>
+
+</databaseChangeLog>
