@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+    <changeSet author="mdbdba" id="lu_archetype_eye_color_1">
+        <createTable 
+                schemaName="dnd5e"
+                tableName="lu_archetype_eye_color">
+            <column autoIncrement="true" startWith="1" name="id" type="int"/>
+            <column name="archetype" type="varchar(32)"/>
+            <column name="value" type="varchar(64)"/>
+        </createTable>
+        <addNotNullConstraint columnDataType="int"
+                              columnName="id"
+                              constraintName="nn_lu_archetype_eye_color_id"
+                              schemaName="dnd5e"
+                              tableName="lu_archetype_eye_color"
+                              validate="true"/>
+        <addPrimaryKey 
+            columnNames="id"
+            constraintName="pk_lu_archetype_eye_color"
+            schemaName="dnd5e"
+            tableName="lu_archetype_eye_color"/>
+    </changeSet>
+
+</databaseChangeLog>
+
+
+
+
+

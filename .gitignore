@@ -13,7 +13,7 @@ data/dndcharacter/liquibase.properties
 # directory where purchased data goes
 data/dndcharacter/purchased
 
-
+data/dndcharacter/triage
 
 # Test binary, built with `go test -c`
 *.test

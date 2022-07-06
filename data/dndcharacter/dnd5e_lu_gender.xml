@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+
+    <changeSet author="mdbdba" id="lu_gender_1">
+        <createTable 
+                schemaName="dnd5e"
+                tableName="lu_gender">
+            <column name="value" type="varchar(1)"/>
+        </createTable>
+        <addNotNullConstraint columnDataType="varchar(1)"
+                              columnName="value"
+                              constraintName="nn_lu_gender_value"
+                              schemaName="dnd5e"
+                              tableName="lu_gender"
+                              validate="true"/>
+
+        <addPrimaryKey 
+            columnNames="value"
+            constraintName="pk_lu_gender"
+            schemaName="dnd5e"
+            tableName="lu_gender"/>
+        <insert schemaName="dnd5e" tableName="lu_gender">
+            <column name="value" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_gender">
+            <column name="value" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_gender">
+            <column name="value" value="U"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

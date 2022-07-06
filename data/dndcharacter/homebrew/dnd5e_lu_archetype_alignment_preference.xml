@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+    <changeSet author="mdbdba" id="lu_archetype_alignment_preference_homebrew_1">
+        
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="centaur" />
+            <column name="alignment" value="LG" />
+            <column name="pct_likely" value="5.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="centaur" />
+            <column name="alignment" value="NG" />
+            <column name="pct_likely" value="15.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="centaur" />
+            <column name="alignment" value="CG" />
+            <column name="pct_likely" value="9.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="centaur" />
+            <column name="alignment" value="LN" />
+            <column name="pct_likely" value="15.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="centaur" />
+            <column name="alignment" value="LE" />
+            <column name="pct_likely" value="3.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="centaur" />
+            <column name="alignment" value="N" />
+            <column name="pct_likely" value="20.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="centaur" />
+            <column name="alignment" value="NE" />
+            <column name="pct_likely" value="15.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="centaur" />
+            <column name="alignment" value="CN" />
+            <column name="pct_likely" value="15.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="centaur" />
+            <column name="alignment" value="CE" />
+            <column name="pct_likely" value="3.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="bearkin" />
+            <column name="alignment" value="LG" />
+            <column name="pct_likely" value="9.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="bearkin" />
+            <column name="alignment" value="NG" />
+            <column name="pct_likely" value="12.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="bearkin" />
+            <column name="alignment" value="CG" />
+            <column name="pct_likely" value="9.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="bearkin" />
+            <column name="alignment" value="LN" />
+            <column name="pct_likely" value="15.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="bearkin" />
+            <column name="alignment" value="LE" />
+            <column name="pct_likely" value="6.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="bearkin" />
+            <column name="alignment" value="N" />
+            <column name="pct_likely" value="20.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="bearkin" />
+            <column name="alignment" value="NE" />
+            <column name="pct_likely" value="12.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="bearkin" />
+            <column name="alignment" value="CN" />
+            <column name="pct_likely" value="15.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="bearkin" />
+            <column name="alignment" value="CE" />
+            <column name="pct_likely" value="2.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="kobold" />
+            <column name="alignment" value="LG" />
+            <column name="pct_likely" value="20.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="kobold" />
+            <column name="alignment" value="NG" />
+            <column name="pct_likely" value="20.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="kobold" />
+            <column name="alignment" value="CG" />
+            <column name="pct_likely" value="20.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="kobold" />
+            <column name="alignment" value="LN" />
+            <column name="pct_likely" value="15.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="kobold" />
+            <column name="alignment" value="LE" />
+            <column name="pct_likely" value="2.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="kobold" />
+            <column name="alignment" value="N" />
+            <column name="pct_likely" value="5.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="kobold" />
+            <column name="alignment" value="NE" />
+            <column name="pct_likely" value="3.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="kobold" />
+            <column name="alignment" value="CN" />
+            <column name="pct_likely" value="13.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="kobold" />
+            <column name="alignment" value="CE" />
+            <column name="pct_likely" value="2.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="greenskin goblin" />
+            <column name="alignment" value="LG" />
+            <column name="pct_likely" value="1.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="greenskin goblin" />
+            <column name="alignment" value="NG" />
+            <column name="pct_likely" value="10.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="greenskin goblin" />
+            <column name="alignment" value="CG" />
+            <column name="pct_likely" value="15.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="greenskin goblin" />
+            <column name="alignment" value="LN" />
+            <column name="pct_likely" value="1.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="greenskin goblin" />
+            <column name="alignment" value="LE" />
+            <column name="pct_likely" value="1.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="greenskin goblin" />
+            <column name="alignment" value="N" />
+            <column name="pct_likely" value="30.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="greenskin goblin" />
+            <column name="alignment" value="NE" />
+            <column name="pct_likely" value="10.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="greenskin goblin" />
+            <column name="alignment" value="CN" />
+            <column name="pct_likely" value="17.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="greenskin goblin" />
+            <column name="alignment" value="CE" />
+            <column name="pct_likely" value="15.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="boggart goblin" />
+            <column name="alignment" value="LG" />
+            <column name="pct_likely" value="1.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="boggart goblin" />
+            <column name="alignment" value="NG" />
+            <column name="pct_likely" value="20.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="boggart goblin" />
+            <column name="alignment" value="CG" />
+            <column name="pct_likely" value="5.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="boggart goblin" />
+            <column name="alignment" value="LN" />
+            <column name="pct_likely" value="1.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="boggart goblin" />
+            <column name="alignment" value="LE" />
+            <column name="pct_likely" value="1.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="boggart goblin" />
+            <column name="alignment" value="N" />
+            <column name="pct_likely" value="30.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="boggart goblin" />
+            <column name="alignment" value="NE" />
+            <column name="pct_likely" value="20.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="boggart goblin" />
+            <column name="alignment" value="CN" />
+            <column name="pct_likely" value="17.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="boggart goblin" />
+            <column name="alignment" value="CE" />
+            <column name="pct_likely" value="5.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="gremlin goblin" />
+            <column name="alignment" value="LG" />
+            <column name="pct_likely" value="1.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="gremlin goblin" />
+            <column name="alignment" value="NG" />
+            <column name="pct_likely" value="6.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="gremlin goblin" />
+            <column name="alignment" value="CG" />
+            <column name="pct_likely" value="1.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="gremlin goblin" />
+            <column name="alignment" value="LN" />
+            <column name="pct_likely" value="1.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="gremlin goblin" />
+            <column name="alignment" value="LE" />
+            <column name="pct_likely" value="1.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="gremlin goblin" />
+            <column name="alignment" value="N" />
+            <column name="pct_likely" value="30.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="gremlin goblin" />
+            <column name="alignment" value="NE" />
+            <column name="pct_likely" value="10.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="gremlin goblin" />
+            <column name="alignment" value="CN" />
+            <column name="pct_likely" value="25.0" />
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_alignment_preference">
+            <column name="archetype" value="gremlin goblin" />
+            <column name="alignment" value="CE" />
+            <column name="pct_likely" value="25.0" />
+        </insert>
+    </changeSet>
+</databaseChangeLog>

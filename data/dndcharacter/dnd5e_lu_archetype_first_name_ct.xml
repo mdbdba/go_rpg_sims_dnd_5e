@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+    <changeSet author="mdbdba" id="lu_archetype_first_name_ct_1">
+        <createTable 
+                schemaName="dnd5e"
+                tableName="lu_archetype_first_name">
+            <column autoIncrement="true" startWith="1" name="id" type="int"/>
+            <column name="archetype" type="varchar(32)"/>
+            <column name="value" type="varchar(64)"/>
+            <column name="gender" type="varchar(1)"/>
+        </createTable>
+        <addNotNullConstraint columnDataType="int"
+                              columnName="id"
+                              constraintName="nn_lu_archetype_first_name_id"
+                              schemaName="dnd5e"
+                              tableName="lu_archetype_first_name"
+                              validate="true"/>
+        <addPrimaryKey 
+            columnNames="id"
+            constraintName="pk_lu_archetype_first_name"
+            schemaName="dnd5e"
+            tableName="lu_archetype_first_name"/>
+        <addForeignKeyConstraint baseColumnNames="gender"
+            baseTableName="lu_archetype_first_name"
+            constraintName="fk_lu_archetype_first_name_gender"
+            onDelete="CASCADE"
+            onUpdate="RESTRICT"
+            referencedColumnNames="value"
+            referencedTableName="lu_gender"/>
+        <addDefaultValue 
+            columnDataType="varchar(16)"
+            columnName="gender"
+            defaultValue="U"
+            schemaName="dnd5e"
+            tableName="lu_archetype_first_name"/>
+    </changeSet>
+</databaseChangeLog>
+

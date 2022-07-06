@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">    
+    <changeSet author="mdbdba" id="lu_archetype_first_name_homebrew_1">
+
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="centaur"/><column name="value" value="Bane"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="centaur"/><column name="value" value="Firenze"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="centaur"/><column name="value" value="Ronan"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="centaur"/><column name="value" value="Magorian"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="centaur"/><column name="value" value="Pahk"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="bearkin"/><column name="value" value="Uzumati"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="bearkin"/><column name="value" value="Theo"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="bearkin"/><column name="value" value="Bjornar"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="bearkin"/><column name="value" value="Mecho"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="bearkin"/><column name="value" value="Bemelle"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="bearkin"/><column name="value" value="Uther"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="bearkin"/><column name="value" value="Orsino"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="bearkin"/><column name="value" value="Ursella"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="bearkin"/><column name="value" value="Tobini"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="bearkin"/><column name="value" value="Sapata"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="bearkin"/><column name="value" value="Averi"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="bearkin"/><column name="value" value="Heltu"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="bearkin"/><column name="value" value="Eferhild"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="bearkin"/><column name="value" value="Avery"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="bearkin"/><column name="value" value="Turi"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="black bearkin"/><column name="value" value="Ber"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="black bearkin"/><column name="value" value="Arkadios"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="black bearkin"/><column name="value" value="Arttu"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="black bearkin"/><column name="value" value="Orsin"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="black bearkin"/><column name="value" value="Kumu"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="black bearkin"/><column name="value" value="Mahtowa"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="black bearkin"/><column name="value" value="Orsa"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="brown bearkin"/><column name="value" value="Telutci"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="brown bearkin"/><column name="value" value="Yana"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="brown bearkin"/><column name="value" value="Myr"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="brown bearkin"/><column name="value" value="Orion"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="brown bearkin"/><column name="value" value="Nita"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="brown bearkin"/><column name="value" value="Queenie"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="brown bearkin"/><column name="value" value="Urska"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="brown bearkin"/><column name="value" value="Sabby"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="koala bearkin"/><column name="value" value="Cesar"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="koala bearkin"/><column name="value" value="Gio"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="koala bearkin"/><column name="value" value="Jesse"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="koala bearkin"/><column name="value" value="Dundee"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="koala bearkin"/><column name="value" value="Lola"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="koala bearkin"/><column name="value" value="Tufu"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="koala bearkin"/><column name="value" value="Fleur"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="koala bearkin"/><column name="value" value="Kylie"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="panda bearkin"/><column name="value" value="Junus"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="panda bearkin"/><column name="value" value="Scorpion"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="panda bearkin"/><column name="value" value="Zarius"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="panda bearkin"/><column name="value" value="Nhia"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="panda bearkin"/><column name="value" value="Milah"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="panda bearkin"/><column name="value" value="Kashia"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="polar bearkin"/><column name="value" value="Zapp"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="polar bearkin"/><column name="value" value="Alpine"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="polar bearkin"/><column name="value" value="Momus"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="polar bearkin"/><column name="value" value="Soraya"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="polar bearkin"/><column name="value" value="Nira"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="polar bearkin"/><column name="value" value="Kamisha"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Draahzin"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Eadoo"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Ipmeerk"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Jamada"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Kib"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Makroo"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Olp"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Yark"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Yraalik"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Zornesk"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Adriaak"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Harkail"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Neeral"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Ozula"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Poro"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Saassraa"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Tarka"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Cras"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Closz"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Khoz"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Chial"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Khamgi"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Xuzsun"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Errux"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Ubhres"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Itzus"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Cligro"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Shrais"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Cliax"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Szang"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Clus"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Knainszun"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Threikhring"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Szekkeil"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Shromqaax"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Zranzun"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="kobold"/><column name="value" value="Gizsan"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Gungax"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Gungax"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Gungax"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Makdox"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Makdox"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Makdox"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Gizil"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Gizil"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Gizil"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Bilnix"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Bilnix"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Bilnix"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Rukalog"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Rukalog"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Rukalog"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Drax"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Drax"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Drax"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Unkgil"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Unkgil"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Unkgil"/><column name="gender" value="M"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Tiwin"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Tiwin"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Tiwin"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Kawli"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Kawli"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Kawli"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Wort"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Wort"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Wort"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Ib"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Ib"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Ib"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Drolaw"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Drolaw"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Drolaw"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Marowa"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Marowa"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Marowa"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Walow"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Walow"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Walow"/><column name="gender" value="F"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Wonk"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Wonk"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Wonk"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Drulx"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Drulx"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Drulx"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Trits"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Trits"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Trits"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Beattoct"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Beattoct"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Beattoct"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Veagiak"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Veagiak"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Veagiak"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Iorburk"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Iorburk"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Iorburk"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="Asdyrm"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="Asdyrm"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="Asdyrm"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="brown bearkin"/><column name="value" value="Ahh"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="panda bearkin"/><column name="value" value="Ahh"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="polar bearkin"/><column name="value" value="Ahh"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="koala bearkin"/><column name="value" value="Ahh"/><column name="gender" value="U"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_first_name">
+            <column name="archetype" value="black bearkin"/><column name="value" value="Ahh"/><column name="gender" value="U"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
+
