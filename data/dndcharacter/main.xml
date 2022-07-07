@@ -12,7 +12,9 @@
     <include file="dnd5e_lu_archetype_alignment_preference_ct.xml"/>
     <include file="dnd5e_lu_archetype_eye_color_ct.xml"/>
     <include file="dnd5e_lu_gender.xml"/>
+    <include file="dnd5e_lu_gender_pronoun.xml"/>
     <include file="dnd5e_lu_archetype_first_name_ct.xml"/>
+    <include file="dnd5e_lu_archetype_hair_color_ct.xml"/>
     <includeAll path="srd/"/>
     <includeAll path="purchased/"/>
     <includeAll path="homebrew/"/>

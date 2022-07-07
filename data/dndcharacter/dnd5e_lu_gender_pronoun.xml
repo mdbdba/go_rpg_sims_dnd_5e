@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+    <changeSet author="mdbdba" id="lu_gender_pronoun_1">
+        <createTable 
+                schemaName="dnd5e"
+                tableName="lu_gender_pronoun">
+            <column name="gender" type="varchar(1)"/>
+            <column name="operand" type="varchar(16)"/>
+            <column name="value" type="varchar(16)"/>
+        </createTable>
+
+        <addNotNullConstraint columnDataType="varchar(1)"
+                              columnName="gender"
+                              constraintName="nn_lu_gender_pronoun_gender"
+                              schemaName="dnd5e"
+                              tableName="lu_gender_pronoun"
+                              validate="true"/>
+        <addNotNullConstraint columnDataType="varchar(16)"
+                              columnName="operand"
+                              constraintName="nn_lu_gender_pronoun_operand"
+                              schemaName="dnd5e"
+                              tableName="lu_gender_pronoun"
+                              validate="true"/>
+        <addNotNullConstraint columnDataType="varchar(16)"
+                              columnName="value"
+                              constraintName="nn_lu_gender_pronoun_value"
+                              schemaName="dnd5e"
+                              tableName="lu_gender_pronoun"
+                              validate="true"/>
+        <addPrimaryKey 
+            columnNames="gender,operand,value"
+            constraintName="pk_lu_gender_pronoun"
+            schemaName="dnd5e"
+            tableName="lu_gender_pronoun"/>
+
+        <addForeignKeyConstraint baseColumnNames="gender"
+            baseTableName="lu_gender_pronoun"
+            constraintName="fk_lu_gender_pronoun"
+            onDelete="CASCADE"
+            onUpdate="RESTRICT"
+            referencedColumnNames="value"
+            referencedTableName="lu_gender"/>
+        <insert schemaName="dnd5e" tableName="lu_gender_pronoun">
+            <column name="gender" value="M"/>
+            <column name="operand" value="subject"/>
+            <column name="value" value="he"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_gender_pronoun">
+            <column name="gender" value="F"/>
+            <column name="operand" value="subject"/>
+            <column name="value" value="she"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_gender_pronoun">
+            <column name="gender" value="U"/>
+            <column name="operand" value="subject"/>
+            <column name="value" value="they"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_gender_pronoun">
+            <column name="gender" value="M"/>
+            <column name="operand" value="object"/>
+            <column name="value" value="him"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_gender_pronoun">
+            <column name="gender" value="F"/>
+            <column name="operand" value="object"/>
+            <column name="value" value="her"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_gender_pronoun">
+            <column name="gender" value="U"/>
+            <column name="operand" value="object"/>
+            <column name="value" value="them"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

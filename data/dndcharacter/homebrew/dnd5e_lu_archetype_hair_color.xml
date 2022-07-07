@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="uTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+    <changeSet author="mdbdba" id="lu_archetype_hair_color_homebrew_1">
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="centaur"/><column name="value" value="grey"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="centaur"/><column name="value" value="black"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="centaur"/><column name="value" value="white"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="centaur"/><column name="value" value="smoky cream"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="centaur"/><column name="value" value="smoky black"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="centaur"/><column name="value" value="silver"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="bearkin"/><column name="value" value="brown"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="bearkin"/><column name="value" value="black"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="bearkin"/><column name="value" value="silver blue"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="bearkin"/><column name="value" value="light grey"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="bearkin"/><column name="value" value="dark grey"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="bearkin"/><column name="value" value="white"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="bearkin"/><column name="value" value="yellow"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="bearkin"/><column name="value" value="tan"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="bearkin"/><column name="value" value="rusty brown"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="bearkin"/><column name="value" value="light brown"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="bearkin"/><column name="value" value="dark brown"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="black bearkin"/><column name="value" value="black"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="black bearkin"/><column name="value" value="silver blue"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="black bearkin"/><column name="value" value="grey"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="brown bearkin"/><column name="value" value="tan"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="brown bearkin"/><column name="value" value="rusty brown"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="brown bearkin"/><column name="value" value="dark brown"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="koala bearkin"/><column name="value" value="light grey"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="koala bearkin"/><column name="value" value="dark grey"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="koala bearkin"/><column name="value" value="light brown"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="koala bearkin"/><column name="value" value="dark brown"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="panda bearkin"/><column name="value" value="black and white"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="polar bearkin"/><column name="value" value="white"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="polar bearkin"/><column name="value" value="yellow"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="kobold"/><column name="value" value="none"/></insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="white"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="black"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="blue"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="greenskin goblin"/>
+            <column name="value" value="grey"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="white"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="black"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="blue"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="boggart goblin"/>
+            <column name="value" value="grey"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="white"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="black"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="blue"/>
+        </insert>
+        <insert schemaName="dnd5e" tableName="lu_archetype_hair_color">
+            <column name="archetype" value="gremlin goblin"/>
+            <column name="value" value="grey"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
