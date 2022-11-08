@@ -46,47 +46,6 @@ func TestBasic(t *testing.T) {
 	assert.LessOrEqual(rollObj.Result, 18)
 }
 
-func TestAdvantage(t *testing.T) {
-	assert := assert.New(t)
-	opts := []string{"advantage"}
-	pSides := 20
-	pTimesToRoll := 1
-	rollObj, err := Perform(pSides, pTimesToRoll, "Test Advantage", opts...)
-	if err != nil {
-		panic(err)
-	}
-	fmt.Println(rollObj.ToPrettyString())
-
-	assert.Equal(pSides, rollObj.Sides)
-	assert.Equal(pTimesToRoll, rollObj.TimesToRoll)
-	if len(rollObj.RollsGenerated) != 2 {
-		t.Errorf("wrong number of generated received: %d",
-			len(rollObj.RollsGenerated))
-	}
-	for i := 0; i < len(rollObj.RollsGenerated); i++ {
-		if rollObj.RollsGenerated[i] < 1 ||
-			rollObj.RollsGenerated[i] > rollObj.Sides {
-			t.Errorf("Value for RollsGenerated outside range(1-%d): %d "+
-				"Position: %d", rollObj.Sides, rollObj.RollsGenerated[i], i)
-		}
-	}
-	if len(rollObj.RollsUsed) != 1 {
-		t.Errorf("wrong number of used received: %d",
-			len(rollObj.RollsGenerated))
-	}
-	for i := 0; i < len(rollObj.RollsUsed); i++ {
-		if rollObj.RollsUsed[i] < 1 ||
-			rollObj.RollsUsed[i] > rollObj.Sides {
-			t.Errorf("Value for RollsUsed outside range(1-%d): %d "+
-				"Position: %d", rollObj.Sides, rollObj.RollsUsed[i], i)
-		}
-	}
-	assert.GreaterOrEqual(rollObj.RollsGenerated[0], rollObj.RollsGenerated[1])
-	assert.Equal("vantage: advantage; ", rollObj.Options)
-	assert.GreaterOrEqual(rollObj.Result, 1)
-	assert.LessOrEqual(rollObj.Result, 20)
-}
-
 func TestDoubleAdvantage(t *testing.T) {
 	assert := assert.New(t)
 	opts := []string{"advantage", "advantage"}
@@ -128,7 +87,7 @@ func TestDoubleAdvantage(t *testing.T) {
 	assert.LessOrEqual(rollObj.Result, 20)
 }
 
-func TestDisadvantage(t *testing.T) {
+func TestPerformDisadvantage(t *testing.T) {
 	assert := assert.New(t)
 	opts := []string{"disadvantage"}
 	pSides := 20

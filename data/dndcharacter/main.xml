@@ -15,7 +15,7 @@
     <include file="dnd5e_lu_gender_pronoun.xml"/>
     <include file="dnd5e_lu_archetype_first_name_ct.xml"/>
     <include file="dnd5e_lu_archetype_hair_color_ct.xml"/>
-    <includeAll path="srd/"/>
-    <includeAll path="purchased/"/>
-    <includeAll path="homebrew/"/>
+    <includeAll path="srd/" errorIfMissingOrEmpty="false"/>
+    <includeAll path="purchased/" errorIfMissingOrEmpty="false"/>
+    <includeAll path="homebrew/" errorIfMissingOrEmpty="false"/>
 </databaseChangeLog>
